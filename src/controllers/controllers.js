@@ -10,7 +10,7 @@ exports.createData = (req, res) => {
       else
         return res
           .status(200)
-          .json({ message: "data request was successfull", data });
+          .json({ message: "data was created successfully", data });
     }
   );
 };
@@ -31,7 +31,7 @@ exports.updateData = (req, res) => {
       else
         return res
           .status(200)
-          .json({ message: "book updated successfully", data: saveData });
+          .json({ message: "data updated successfully", data: saveData });
     });
   });
 };
