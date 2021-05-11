@@ -10,7 +10,7 @@ exports.createData = (req, res) => {
       else
         return res
           .status(200)
-          .json({ message: "data was created successfully", data });
+          .json({ message: "data was created and stored successfully", data });
     }
   );
 };
